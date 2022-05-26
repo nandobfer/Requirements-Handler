@@ -47,6 +47,3 @@ def installModule(install_name, import_name):
             return True
         except:
             return False
-
-
-getRequirements()
