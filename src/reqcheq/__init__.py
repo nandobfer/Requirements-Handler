@@ -10,7 +10,7 @@ def readRequirements():
     return requirements
 
 
-def getRequirements():
+def reqcheq():
     requirements = readRequirements()
     for requirement in requirements:
         names = requirement.split()
@@ -47,3 +47,6 @@ def installModule(install_name, import_name):
             return True
         except:
             return False
+
+
+reqcheq()
